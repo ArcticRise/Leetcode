@@ -32,7 +32,7 @@ Case1 = "tree"
 print(frequencySort(Case1))
 
 """
-Time Complexity: O(N) -> length of String
+Time Complexity: O(NLogN) -> Sorting
 Space: O(N)
 
 """
