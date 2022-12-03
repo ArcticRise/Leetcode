@@ -21,4 +21,9 @@ def rotate( matrix: List[List[int]]) -> None:
 case1 = [[1,2,3],[4,5,6],[7,8,9]]
 rotate(case1)
 print(case1)
-        
+
+"""
+Time Complexity: O(M) m as in matrix cells
+Space: O(1)
+
+"""
