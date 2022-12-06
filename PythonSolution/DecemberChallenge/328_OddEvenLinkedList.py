@@ -38,10 +38,11 @@ Time Complexity: O(N)
 Space: O(1)
 
 [1,2,3,4,5]
-Algos work but seting odd to  1 and even to 2 then we iterate via .next.next 
-to get 3 then 4 then odd can go one more time to 5 but even ends
+Algos work but seting odd to  1 and even to 2 then we iterate via .next.next
+set odd and even to the next elem....
+to get 3 then 4 then odd; can go one more time to 5 but even ends
 
-odd is now 1,3,5 and even is 2,5 but remember theres the temp var that is pointed to head.next which needs to be used, since even is now None(Reached End of LinkedList)
+odd is now 1,3,5 and even is 2,4 but remember theres the temp var that is pointed to head.next which needs to be used, since even is now None(Reached End of LinkedList)
 we set oddp.next = temp to get ans
 
 """
