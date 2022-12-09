@@ -36,7 +36,7 @@ def mergeTwoLists(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[Li
 
 """
 Time Complexity: O(N)
-Space: O(N) -> created new linked lIst
+Space: O(1)
 
 
 """

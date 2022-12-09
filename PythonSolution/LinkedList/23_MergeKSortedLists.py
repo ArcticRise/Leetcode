@@ -59,5 +59,5 @@ def mergeKLists(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
 """
 Time Complexity: O(N)
-Space: O(N) created new linked lIST
+Space: O(1)
 """
