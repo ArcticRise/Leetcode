@@ -38,4 +38,7 @@ def maxProduct(root: Optional[TreeNode]) -> int:
 Time Complexity: O(N)
 Space: O(H) 
 
+Get Total Sum
+then get the right and left max sum - total
+
 """
