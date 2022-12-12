@@ -21,6 +21,8 @@ def search( nums: List[int], target: int) -> int:
         mid = left + (right-left)//2
         if nums[mid] == target:
             return mid
+        
+        #Logic Needed since the array is rotated
         elif nums[mid] >= nums[left]:
             if target > nums[mid] or target < nums[left]:
                 left = mid + 1
