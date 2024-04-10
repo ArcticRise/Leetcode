@@ -37,3 +37,10 @@ def minFallingPathSum( matrix: List[List[int]]) -> int:
 
 Case1 = [[2,1,3],[6,5,4],[7,8,9]]
 print(minFallingPathSum(Case1))
+
+"""
+
+Time Complexity: O(N^2)
+Space: O(N^2)
+
+"""
